@@ -1,2 +1,2 @@
 #ansible_ssh_common_args='-o StrictHostKeyChecking=no'
-172.31.4.225 ansible_user=ec2-user ansible_port=22
+172.31.37.150 ansible_user=ec2-user ansible_port=22
