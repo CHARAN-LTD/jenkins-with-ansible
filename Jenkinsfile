@@ -17,11 +17,11 @@ pipeline {
     }
      
     //Run the playbook
-    stage('RunPlaybook') {
+    /*stage('RunPlaybook') {
       steps {
         sh "ansible-playbook -i inventory/walmart.hosts --private-key=$AWS_EC2_PRIVATE_KEY playbooks/installTomcat.yml"
       }
-    }
+    }*/
   
   }//stages closing
 }//pipeline closing
